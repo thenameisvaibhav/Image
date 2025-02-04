@@ -28,18 +28,6 @@ function App() {
     <>
       <main className="bg-black">
         <section className="w-full h-screen relative">
-          <motion.img
-            src="images/logo.png"
-            className="absolute top-4 left-4 w-20 h-10 z-10 brightness-0 invert object-contain"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              duration: 0.6,
-              delay: 0.2,
-              type: "spring",
-              bounce: 0.2,
-            }}
-          />
           <motion.div
             className="absolute top-6 right-6 z-10"
             initial={{
